@@ -1,0 +1,13 @@
+main{
+  width: 25%;
+  height: 50%;
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 600px) {
+  main{
+    width: 90%;
+    height: 55%;
+  }
+  }

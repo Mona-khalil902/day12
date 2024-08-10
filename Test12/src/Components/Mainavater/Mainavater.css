@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'KumbhSans';
+    src: url('../../assets/Fonts/KumbhSans-Regular.ttf');
+    font-weight: normal;
+
+}
+@font-face {
+    font-family: 'KumbhSans-ExtraBold';
+    src: url('../../assets/Fonts/KumbhSans-ExtraBold.ttf');
+    font-weight: bolder;
+
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.bachgrDiv{
+    width: 100%;
+    height: 40%;
+    background-image: url('../../assets/images/card.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#VictorDiv{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.information{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -30px;
+    gap: 8px;
+}
+.victorImage{
+    display: flex;
+    justify-content: center;
+}
+.imagesize{
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.hrline{
+    width: 99,9%;
+    border: 1px solid rgb(230, 228, 230);
+}
+.peoplewatches{
+    display: flex;
+    justify-content: space-around;
+}
+.Followers ,.Likes  ,.Photos{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+span{
+    color:  hsl(0, 0%, 59%);
+    font-family: 'KumbhSans';
+    font-size: 16px;
+}
+label{
+    color: hsl(229, 23%, 23%);
+    font-family: 'KumbhSans-ExtraBold';
+}
